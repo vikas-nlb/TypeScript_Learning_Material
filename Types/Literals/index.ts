@@ -10,3 +10,6 @@ const combine = (input1 : number | string , input2 : number | string , convertio
 
 console.log(combine(1,2,'string'));
 console.log(combine('1','2','number'));
+
+
+// Literal type allows us to enfore a type for a variable to be a very specific set of values like 'small' or 'large'

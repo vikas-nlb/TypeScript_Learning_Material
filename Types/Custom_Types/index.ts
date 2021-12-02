@@ -11,5 +11,11 @@ const combine = (input1 : Combinable , input2 : Combinable , convertionType: Con
     }
 }
 
+type User = { name: string; age: number };
+const u1: User = { name: 'Max', age: 30 }; // this works!
+
 console.log(combine(1,2,'number'));
 console.log(combine('12','24','string'));
+
+
+// in many cases rather than writing the types allowed to each variable again and again we create a custom type and assign it to variable , its like a variable for the type

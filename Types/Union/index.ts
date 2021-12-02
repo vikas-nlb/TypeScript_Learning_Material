@@ -10,3 +10,5 @@ const add = (input1 : number | string , input2 : number | string)=>{
 
 console.log(add(1,2));
 console.log(add('1','2'));
+
+// union type allows users to decide between few types to choose from when they are assigning values to a variable
